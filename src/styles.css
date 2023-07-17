@@ -1,0 +1,40 @@
+div {
+  background-color: #003575;
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+  text-align: center;
+}
+h1 {
+  justify-content: center;
+  background-color: #003575;
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-image: url(https://startupsmagazine.co.uk/sites/default/files/2021-04/AdobeStock_271505083.jpg);
+}
+
+.Card {
+  background-color: blue;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-text {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 20px;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
